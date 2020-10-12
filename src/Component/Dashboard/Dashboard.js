@@ -74,7 +74,7 @@ export const Dashboard = () => {
             <div>
               <img
                 className="dashboardImage"
-                src="/Photos/ProfilePhoto.jpg"
+                src="/Photos/ProfilePhoto.png"
                 alt="ProfilePhoto"
               />
             </div>
