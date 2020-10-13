@@ -32,7 +32,7 @@ export const Dashboard = () => {
                   color: "#868e96",
                   fontWeight: 400,
                   marginBottom: "2.5rem",
-                  lineHeight: 1.6
+                  lineHeight: 1.6,
                 }}
               >
                 This website is my <span>🌱</span> digital garden—a compendium
@@ -40,32 +40,6 @@ export const Dashboard = () => {
                 anything else I want to write about. You can read my blog, view
                 my guides & tutorials, or learn more about me.
               </Typography>
-            </div>
-            <div>
-              <Button
-                variant="contained"
-                size="large"
-                color="primary"
-                style={{ marginRight: "1%" }}
-              >
-                <GetAppIcon />
-                <a
-                  href="/Resume/Nayan_Resume.pdf"
-                  target="_blank"
-                  className="removeTextDecoration"
-                >
-                  Download Resume
-                </a>
-              </Button>
-              <Button variant="contained" size="large" color="primary">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfJFbS-9b1MJL4LBA_QtIIl89xE1IKjBd8VxkieLsFeIQnQiQ/viewform?usp=sf_link"
-                  target="_blank"
-                  className="removeTextDecoration"
-                >
-                  Give Feedback
-                </a>
-              </Button>
             </div>
           </div>
         </Grid>
@@ -80,9 +54,38 @@ export const Dashboard = () => {
             </div>
           </div>
         </Grid>
-
-        {/* <Grid item xs={1}></Grid> */}
       </Grid>
+      <div style={{ marginTop: "-11%" }}>
+        <Grid container>
+          <Grid xs={5}>
+            <Button
+              variant="contained"
+              size="large"
+              color="primary"
+              style={{ marginRight: "1%" }}
+            >
+              <GetAppIcon />
+              <a
+                href="/Resume/Nayan_Resume.pdf"
+                target="_blank"
+                className="removeTextDecoration"
+              >
+                Download Resume
+              </a>
+            </Button>
+            <Button variant="contained" size="large" color="primary">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfJFbS-9b1MJL4LBA_QtIIl89xE1IKjBd8VxkieLsFeIQnQiQ/viewform?usp=sf_link"
+                target="_blank"
+                className="removeTextDecoration"
+              >
+                Give Feedback
+              </a>
+            </Button>
+          </Grid>
+          <Grid xs={7}></Grid>
+        </Grid>
+      </div>
     </div>
   );
 };

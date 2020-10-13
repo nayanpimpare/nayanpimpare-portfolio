@@ -25,3 +25,9 @@
 .seftIntro {
   font-size: 1.8rem;
 }
+
+.card {
+  float: left;
+  /* width: 25%; */
+  padding: 0 10px;
+}
