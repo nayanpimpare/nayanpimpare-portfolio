@@ -50,7 +50,7 @@ export const Project = () => {
                 <Grid xs={12}>
                   <span className="card">
                     <ProjectCard
-                      image=""
+                      image="../Photos/WatherAppPoster.png"
                       heading="Weather Application"
                       content="You can find your nearest weather detail on your mobile or desktop"
                       projectLink="https://www.google.com/"

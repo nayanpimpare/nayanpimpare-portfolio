@@ -14,6 +14,7 @@ import {
 } from "@material-ui/core/";
 import { red } from "@material-ui/core/colors";
 import FavoriteIcon from "@material-ui/icons/Favorite";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
@@ -45,9 +46,14 @@ const useStyles = makeStyles((theme) => ({
 const ProjectCard = (props) => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
+  const [favorateIcon, setFavorateIcon] = React.useState(true);
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
+  };
+
+  const handleIcon = () => {
+    setFavorateIcon(!favorateIcon);
   };
 
   let array = props.heading && props.heading.split(" ");
@@ -70,7 +76,7 @@ const ProjectCard = (props) => {
       <CardMedia
         className={classes.media}
         image={props.image}
-        title="Paella dish"
+        title={props.heading}
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -88,8 +94,12 @@ const ProjectCard = (props) => {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+        <IconButton
+          aria-label="add to favorites"
+          color="secondary"
+          onClick={handleIcon}
+        >
+          {favorateIcon ? <FavoriteBorderIcon /> : <FavoriteIcon />}
         </IconButton>
         <IconButton aria-label="share">
           <ShareIcon />
