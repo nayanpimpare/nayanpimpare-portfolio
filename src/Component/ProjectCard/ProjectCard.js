@@ -78,6 +78,7 @@ const ProjectCard = (props) => {
         image={props.image}
         title={props.heading}
       />
+      <img src="../Photos/WatherAppPoster.png" alt="abc" />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
           {props.content}
