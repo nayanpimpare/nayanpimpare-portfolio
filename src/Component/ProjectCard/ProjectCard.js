@@ -60,7 +60,7 @@ const ProjectCard = (props) => {
 
   return (
     <Card className={classes.root}>
-      {/* <CardHeader
+      <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
             {array && array[0][0] + array[1][0]}
@@ -72,15 +72,13 @@ const ProjectCard = (props) => {
           </IconButton>
         }
         title={props.heading}
-      /> */}
-      <div>
-        <img
-          src={props.image}
-          alt={`${props.heading} Poster`}
-          title={props.heading}
-          style={{ width: "100%" }}
-        />
-      </div>
+      />
+      <img
+        src={props.image}
+        alt={`${props.heading} Poster`}
+        title={props.heading}
+        style={{ width: "100%" }}
+      />
       {/* <CardMedia
         className={classes.media}
         // image={props.image}
