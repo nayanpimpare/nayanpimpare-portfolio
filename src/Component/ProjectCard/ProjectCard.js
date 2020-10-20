@@ -73,12 +73,14 @@ const ProjectCard = (props) => {
         }
         title={props.heading}
       />
-      <img
-        src={props.image}
-        alt={`${props.heading} Poster`}
-        title={props.heading}
-        style={{ width: "100%" }}
-      />
+      <div>
+        <img
+          src={props.image}
+          alt={`${props.heading} Poster`}
+          title={props.heading}
+          style={{ width: "100%" }}
+        />
+      </div>
       {/* <CardMedia
         className={classes.media}
         // image={props.image}
