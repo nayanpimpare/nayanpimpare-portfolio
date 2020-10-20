@@ -73,11 +73,17 @@ const ProjectCard = (props) => {
         }
         title={props.heading}
       />
-      <CardMedia
-        className={classes.media}
-        image={props.image}
+      <img
+        src={props.image}
+        alt={`${props.heading} Poster`}
         title={props.heading}
+        style={{ width: "100%" }}
       />
+      {/* <CardMedia
+        className={classes.media}
+        // image={props.image}
+        title={props.heading}
+      /> */}
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
           {props.content}
