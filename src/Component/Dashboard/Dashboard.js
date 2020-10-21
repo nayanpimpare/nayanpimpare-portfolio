@@ -34,6 +34,7 @@ export const Dashboard = () => {
                     marginBottom: "2.5rem",
                     lineHeight: 1.6,
                   }}
+                  className="seftIntro"
                 >
                   This website is my <span>🌱</span> digital garden—a compendium
                   of the things I have learned and created over the years, and
