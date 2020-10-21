@@ -31,3 +31,13 @@
   /* width: 25%; */
   padding: 0 10px;
 }
+
+@media screen and (max-width: 550px) {
+  .seftIntro {
+    font-size: 1.5rem !important;
+    margin-top: 75%;
+  }
+  .dashboardImage {
+    margin-right: 180%;
+  }
+}
