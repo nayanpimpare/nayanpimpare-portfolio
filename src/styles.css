@@ -35,9 +35,17 @@
 @media screen and (max-width: 550px) {
   .seftIntro {
     font-size: 1.5rem !important;
-    margin-top: 75%;
+    margin-top: 110%;
+    margin-right: 58%;
   }
   .dashboardImage {
-    margin-right: 180%;
+    margin-right: 58%;
+    width: 129%;
+  }
+  .btnDownloadResume {
+    width: 35%;
+  }
+  .btnFeedback {
+    width: 35%;
   }
 }

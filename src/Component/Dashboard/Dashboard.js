@@ -64,6 +64,7 @@ export const Dashboard = () => {
               size="large"
               color="primary"
               style={{ marginRight: "1%" }}
+              className="btnDownloadResume"
             >
               <GetAppIcon />
               <a
@@ -74,7 +75,12 @@ export const Dashboard = () => {
                 Download Resume
               </a>
             </Button>
-            <Button variant="contained" size="large" color="primary">
+            <Button
+              variant="contained"
+              size="large"
+              color="primary"
+              className="btnFeedback"
+            >
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfJFbS-9b1MJL4LBA_QtIIl89xE1IKjBd8VxkieLsFeIQnQiQ/viewform?usp=sf_link"
                 target="_blank"
