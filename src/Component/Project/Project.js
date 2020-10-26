@@ -53,7 +53,7 @@ export const Project = () => {
                       image="/Photos/WatherAppPoster.png"
                       heading="Weather Application"
                       content="You can find your nearest weather detail on your mobile or desktop"
-                      projectLink="https://www.google.com/"
+                      projectLink="https://checkweather.vercel.app/"
                     />
                   </span>
                   <span className="card">
