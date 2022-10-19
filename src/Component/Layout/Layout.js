@@ -12,6 +12,7 @@ export const Layout = () => {
     <BrowserRouter>
       <div>
         <Header />
+        <marquee>Website is under development..!!!</marquee>
         <Grid container spacing={3}>
           <Grid item xs={1}></Grid>
           <Grid item xs={10}>

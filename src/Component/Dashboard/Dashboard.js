@@ -57,7 +57,7 @@ export const Dashboard = () => {
           </Grid>
         </Grid>
       </div>
-      <div style={{ marginTop: "-11%" }}>
+      <div>
         <Grid container spacing={3}>
           <Grid xs={12}>
             <Button

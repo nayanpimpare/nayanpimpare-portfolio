@@ -104,15 +104,13 @@ export const About = () => {
               <Typography paragraph={true} variant="h6" gutterBottom>
                 <ul className="fontColor">
                   <li style={{ fontSize: "1.25rem" }}>
-                    1994: Born in Taloda, MH, the elder one boy.
+                    1994: Born in Taloda, MH.
                   </li>
                   <li style={{ fontSize: "1.25rem" }}>
-                    2015-2018: Master of computer application from Institute of
-                    Management and Career Course’s (IMCC) with 62%.
+                    2015-2018: Master of Computer Application (MCA) from University Of Pune with 64%.
                   </li>
                   <li style={{ fontSize: "1.25rem" }}>
-                    2011-2014: Bachelor of computer application from Modern
-                    College, Pune with 53.60%.
+                    2011-2014: Bachelor of Computer Application (BCA) from University Of Pune with 53.60%.
                   </li>
                   <li style={{ fontSize: "1.25rem" }}>
                     2010-2011: Pre-University Course (HSC) from New High School,
